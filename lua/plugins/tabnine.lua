@@ -1,7 +1,7 @@
 return {
     {
         "tzachar/cmp-tabnine",
-        build = "./install.sh",
+        build = "./install.sh", -- linux only
         dependencies = "hrsh7th/nvim-cmp",
         config = function()
             local tabnine = require("cmp_tabnine.config")
