@@ -34,3 +34,9 @@
 - surround nvim
 - codeium
 - markdownPreview
+
+
+# Todo
+- add functionality to choose dashboard message
+- tabnine compatibility with windows
+- add which keys for assistance
