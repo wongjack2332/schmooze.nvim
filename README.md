@@ -24,8 +24,7 @@
 - none-ls(null-ls alternative)
 - nightfox theme
 - treesitter
-- tabnine(unable to work on windows)
-- dap
+- - dap
 - Mason
 - nvim lspconfig and cmp
 - neorg(optional for notetaking, alternative to obsidian)
@@ -38,5 +37,4 @@
 
 # Todo
 - add functionality to choose dashboard message
-- tabnine compatibility with windows
-- add which keys for assistance
+- install navigator symbole detection
