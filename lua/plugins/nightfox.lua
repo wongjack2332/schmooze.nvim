@@ -1,7 +1,8 @@
 return {
-    { "EdenEast/nightfox.nvim",
-  config = function()
-    vim.cmd.colorscheme "duskfox"
-    end
-  }, 
+    {
+        'folke/tokyonight.nvim',
+        config = function()
+            vim.cmd(':colorscheme tokyonight')
+        end
+    }
 }
