@@ -23,7 +23,7 @@ return {
                     name = "personal",
                     path = "/mnt/c/Users/jackt/OneDrive/Documents/jack/archive/obsidian/My Notes",
                     overrides = {
-                        notes_subdir = "LINKED PAGES"
+                        notes_subdir = "LINKED PAGES",
                     },
                 },
             },
@@ -31,12 +31,13 @@ return {
                 new_notes_location = "notes_subdir",
             },
             templates = {
-                subdir = "TEMPLATES"
-            }
+                subdir = "TEMPLATES",
+            },
         })
-        vim.keymap.set('n', '<localleader>ff',':ObsidianSearch<CR>', {})
-        vim.keymap.set('n', '<localleader>gf', ':ObsidianQuickSwitch<CR>')
-        vim.keymap.set('n', '<localleader>t', ':ObsidianTemplate<CR>')
-        vim.keymap.set('n', '<localleader>o', ':ObsidianOpen<CR>', {})
+        vim.keymap.set("n", "<localleader>ff", ":ObsidianSearch<CR>", {})
+        vim.keymap.set("n", "<localleader>gf", ":ObsidianQuickSwitch<CR>")
+        vim.keymap.set("n", "<localleader>t", ":ObsidianTemplate<CR>")
+        vim.keymap.set("n", "<localleader>o", ":ObsidianOpen<CR>", {})
+        vim.keymap.set("n", "<localleader>lg", ":ObsidianSearch<CR>", {})
     end,
 }
