@@ -24,7 +24,8 @@
 - none-ls(null-ls alternative)
 - nightfox theme
 - treesitter
-- - dap
+- dap
+- harpoon.nvim
 - Mason
 - nvim lspconfig and cmp
 - neorg(optional for notetaking, alternative to obsidian)
