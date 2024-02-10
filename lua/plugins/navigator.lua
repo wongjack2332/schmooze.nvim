@@ -20,6 +20,7 @@ return {
                     },
                 },
             })
+            vim.keymap.set("n", "<leader>o", "<cmd>LspSymbols<CR>", {})
         end,
     },
 }
