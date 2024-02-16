@@ -9,7 +9,6 @@ return {
             vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
             local oil = require("oil")
             oil.setup()
-            oil.open()
         end,
     },
 }
